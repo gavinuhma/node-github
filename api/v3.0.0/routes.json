@@ -273,6 +273,23 @@
                 "validation": "",
                 "invalidmsg": "",
                 "description": "Optional string - Desired language or platform .gitignore template to apply. Ignored if auto_init parameter is not provided."
+            },
+            "text": {
+                "type": "String",
+                "required": true,
+                "validation": "",
+                "invalidmsg": "",
+                "description": ""
+            }
+        }
+    },
+
+    "markdown": {
+        "post": {
+            "url": "/markdown",
+            "method": "POST",
+            "params": {
+                "$text": null
             }
         }
     },
